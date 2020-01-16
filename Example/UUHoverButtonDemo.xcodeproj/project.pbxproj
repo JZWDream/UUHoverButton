@@ -1,0 +1,397 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		30490A3723D0374E004B594E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30490A3623D0374E004B594E /* AppDelegate.m */; };
+		30490A3A23D0374E004B594E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 30490A3923D0374E004B594E /* SceneDelegate.m */; };
+		30490A3D23D0374E004B594E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 30490A3C23D0374E004B594E /* ViewController.m */; };
+		30490A4023D0374E004B594E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30490A3E23D0374E004B594E /* Main.storyboard */; };
+		30490A4223D03751004B594E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 30490A4123D03751004B594E /* Assets.xcassets */; };
+		30490A4523D03751004B594E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 30490A4323D03751004B594E /* LaunchScreen.storyboard */; };
+		30490A4823D03751004B594E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 30490A4723D03751004B594E /* main.m */; };
+		99273631B208D13AAC7A24CE /* libPods-UUHoverButtonDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FD2C5EB1E1DAFA0979AE0DF /* libPods-UUHoverButtonDemo.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		274A1A49B1E96A37B6BA871D /* Pods-UUHoverButtonDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUHoverButtonDemo.release.xcconfig"; path = "Target Support Files/Pods-UUHoverButtonDemo/Pods-UUHoverButtonDemo.release.xcconfig"; sourceTree = "<group>"; };
+		30490A3223D0374E004B594E /* UUHoverButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UUHoverButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		30490A3523D0374E004B594E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		30490A3623D0374E004B594E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		30490A3823D0374E004B594E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		30490A3923D0374E004B594E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		30490A3B23D0374E004B594E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		30490A3C23D0374E004B594E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		30490A3F23D0374E004B594E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		30490A4123D03751004B594E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		30490A4423D03751004B594E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		30490A4623D03751004B594E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		30490A4723D03751004B594E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8FD2C5EB1E1DAFA0979AE0DF /* libPods-UUHoverButtonDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-UUHoverButtonDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FA7B1AFFA4B2E50DCB7ED4C8 /* Pods-UUHoverButtonDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-UUHoverButtonDemo.debug.xcconfig"; path = "Target Support Files/Pods-UUHoverButtonDemo/Pods-UUHoverButtonDemo.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		30490A2F23D0374E004B594E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				99273631B208D13AAC7A24CE /* libPods-UUHoverButtonDemo.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		30490A2923D0374E004B594E = {
+			isa = PBXGroup;
+			children = (
+				30490A3423D0374E004B594E /* UUHoverButtonDemo */,
+				30490A3323D0374E004B594E /* Products */,
+				AC273BD1C65F02A320679153 /* Pods */,
+				7DFD99243FFD98559B96866A /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		30490A3323D0374E004B594E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				30490A3223D0374E004B594E /* UUHoverButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		30490A3423D0374E004B594E /* UUHoverButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				30490A3523D0374E004B594E /* AppDelegate.h */,
+				30490A3623D0374E004B594E /* AppDelegate.m */,
+				30490A3823D0374E004B594E /* SceneDelegate.h */,
+				30490A3923D0374E004B594E /* SceneDelegate.m */,
+				30490A3B23D0374E004B594E /* ViewController.h */,
+				30490A3C23D0374E004B594E /* ViewController.m */,
+				30490A3E23D0374E004B594E /* Main.storyboard */,
+				30490A4123D03751004B594E /* Assets.xcassets */,
+				30490A4323D03751004B594E /* LaunchScreen.storyboard */,
+				30490A4623D03751004B594E /* Info.plist */,
+				30490A4723D03751004B594E /* main.m */,
+			);
+			path = UUHoverButtonDemo;
+			sourceTree = "<group>";
+		};
+		7DFD99243FFD98559B96866A /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FD2C5EB1E1DAFA0979AE0DF /* libPods-UUHoverButtonDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AC273BD1C65F02A320679153 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				FA7B1AFFA4B2E50DCB7ED4C8 /* Pods-UUHoverButtonDemo.debug.xcconfig */,
+				274A1A49B1E96A37B6BA871D /* Pods-UUHoverButtonDemo.release.xcconfig */,
+			);
+			name = Pods;
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		30490A3123D0374E004B594E /* UUHoverButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 30490A4B23D03751004B594E /* Build configuration list for PBXNativeTarget "UUHoverButtonDemo" */;
+			buildPhases = (
+				6141DEF7E512293E29F99D80 /* [CP] Check Pods Manifest.lock */,
+				30490A2E23D0374E004B594E /* Sources */,
+				30490A2F23D0374E004B594E /* Frameworks */,
+				30490A3023D0374E004B594E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UUHoverButtonDemo;
+			productName = UUHoverButtonDemo;
+			productReference = 30490A3223D0374E004B594E /* UUHoverButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		30490A2A23D0374E004B594E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = 100uu;
+				TargetAttributes = {
+					30490A3123D0374E004B594E = {
+						CreatedOnToolsVersion = 11.3;
+					};
+				};
+			};
+			buildConfigurationList = 30490A2D23D0374E004B594E /* Build configuration list for PBXProject "UUHoverButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 30490A2923D0374E004B594E;
+			productRefGroup = 30490A3323D0374E004B594E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				30490A3123D0374E004B594E /* UUHoverButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		30490A3023D0374E004B594E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30490A4523D03751004B594E /* LaunchScreen.storyboard in Resources */,
+				30490A4223D03751004B594E /* Assets.xcassets in Resources */,
+				30490A4023D0374E004B594E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6141DEF7E512293E29F99D80 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-UUHoverButtonDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		30490A2E23D0374E004B594E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				30490A3D23D0374E004B594E /* ViewController.m in Sources */,
+				30490A3723D0374E004B594E /* AppDelegate.m in Sources */,
+				30490A4823D03751004B594E /* main.m in Sources */,
+				30490A3A23D0374E004B594E /* SceneDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		30490A3E23D0374E004B594E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30490A3F23D0374E004B594E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		30490A4323D03751004B594E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				30490A4423D03751004B594E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		30490A4923D03751004B594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		30490A4A23D03751004B594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		30490A4C23D03751004B594E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FA7B1AFFA4B2E50DCB7ED4C8 /* Pods-UUHoverButtonDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UUHoverButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uugame.100uu.UUHoverButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		30490A4D23D03751004B594E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 274A1A49B1E96A37B6BA871D /* Pods-UUHoverButtonDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UUHoverButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.uugame.100uu.UUHoverButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		30490A2D23D0374E004B594E /* Build configuration list for PBXProject "UUHoverButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30490A4923D03751004B594E /* Debug */,
+				30490A4A23D03751004B594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		30490A4B23D03751004B594E /* Build configuration list for PBXNativeTarget "UUHoverButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				30490A4C23D03751004B594E /* Debug */,
+				30490A4D23D03751004B594E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 30490A2A23D0374E004B594E /* Project object */;
+}

@@ -1,0 +1,16 @@
+PODS:
+  - UUHoverButton (0.0.1)
+
+DEPENDENCIES:
+  - UUHoverButton
+
+SPEC REPOS:
+  https://github.com/CocoaPods/Specs.git:
+    - UUHoverButton
+
+SPEC CHECKSUMS:
+  UUHoverButton: ed6c355335a9d6666aef045064f409db45aafd97
+
+PODFILE CHECKSUM: 142b7ddff420a48e27d91a5612f32f4f1de01b27
+
+COCOAPODS: 1.8.4
