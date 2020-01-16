@@ -16,7 +16,7 @@
 /// GCD定时器
 @property(nonatomic,strong)dispatch_source_t timer;
 /// 时间段
-@property (nonatomic, assign) NSInteger timeInterval;
+@property (nonatomic, assign) int timeInterval;
 
 @end
 
@@ -164,7 +164,7 @@
         [self pause];
     } else {
         self.timeInterval += 1;
-        NSLog(@"开始计时-----%ld", self.timeInterval);
+        NSLog(@"开始计时-----%d", self.timeInterval);
     }
 }
 
